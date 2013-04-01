@@ -26,6 +26,16 @@
 		011E94641707772C003B5590 /* myTeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 011E94631707772C003B5590 /* myTeeViewController.m */; };
 		011E9467170779A7003B5590 /* clubsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 011E9466170779A7003B5590 /* clubsViewController.m */; };
 		011E946A17077B3B003B5590 /* accountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 011E946917077B3B003B5590 /* accountViewController.m */; };
+		0140C5521709830600749117 /* 129-golf.png in Resources */ = {isa = PBXBuildFile; fileRef = 0140C5501709830600749117 /* 129-golf.png */; };
+		0140C5531709830600749117 /* 129-golf@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0140C5511709830600749117 /* 129-golf@2x.png */; };
+		0140C5561709833700749117 /* 111-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 0140C5541709833700749117 /* 111-user.png */; };
+		0140C5571709833700749117 /* 111-user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0140C5551709833700749117 /* 111-user@2x.png */; };
+		0140C55A1709835B00749117 /* 166-newspaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 0140C5581709835B00749117 /* 166-newspaper.png */; };
+		0140C55B1709835B00749117 /* 166-newspaper@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0140C5591709835B00749117 /* 166-newspaper@2x.png */; };
+		0140C55E1709838500749117 /* 123-id-card.png in Resources */ = {isa = PBXBuildFile; fileRef = 0140C55C1709838500749117 /* 123-id-card.png */; };
+		0140C55F1709838500749117 /* 123-id-card@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0140C55D1709838500749117 /* 123-id-card@2x.png */; };
+		0140C562170983AD00749117 /* 83-calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0140C560170983AD00749117 /* 83-calendar.png */; };
+		0140C563170983AD00749117 /* 83-calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0140C561170983AD00749117 /* 83-calendar@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +77,16 @@
 		011E9466170779A7003B5590 /* clubsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = clubsViewController.m; sourceTree = "<group>"; };
 		011E946817077B3B003B5590 /* accountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = accountViewController.h; sourceTree = "<group>"; };
 		011E946917077B3B003B5590 /* accountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = accountViewController.m; sourceTree = "<group>"; };
+		0140C5501709830600749117 /* 129-golf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "129-golf.png"; sourceTree = "<group>"; };
+		0140C5511709830600749117 /* 129-golf@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "129-golf@2x.png"; sourceTree = "<group>"; };
+		0140C5541709833700749117 /* 111-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "111-user.png"; sourceTree = "<group>"; };
+		0140C5551709833700749117 /* 111-user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "111-user@2x.png"; sourceTree = "<group>"; };
+		0140C5581709835B00749117 /* 166-newspaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "166-newspaper.png"; sourceTree = "<group>"; };
+		0140C5591709835B00749117 /* 166-newspaper@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "166-newspaper@2x.png"; sourceTree = "<group>"; };
+		0140C55C1709838500749117 /* 123-id-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "123-id-card.png"; sourceTree = "<group>"; };
+		0140C55D1709838500749117 /* 123-id-card@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "123-id-card@2x.png"; sourceTree = "<group>"; };
+		0140C560170983AD00749117 /* 83-calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "83-calendar.png"; sourceTree = "<group>"; };
+		0140C561170983AD00749117 /* 83-calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "83-calendar@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +165,16 @@
 		011E910717075FCD003B5590 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0140C560170983AD00749117 /* 83-calendar.png */,
+				0140C561170983AD00749117 /* 83-calendar@2x.png */,
+				0140C55C1709838500749117 /* 123-id-card.png */,
+				0140C55D1709838500749117 /* 123-id-card@2x.png */,
+				0140C5581709835B00749117 /* 166-newspaper.png */,
+				0140C5591709835B00749117 /* 166-newspaper@2x.png */,
+				0140C5541709833700749117 /* 111-user.png */,
+				0140C5551709833700749117 /* 111-user@2x.png */,
+				0140C5501709830600749117 /* 129-golf.png */,
+				0140C5511709830600749117 /* 129-golf@2x.png */,
 				011E910817075FCD003B5590 /* myT-Info.plist */,
 				011E910917075FCD003B5590 /* InfoPlist.strings */,
 				011E910C17075FCD003B5590 /* main.m */,
@@ -252,6 +282,16 @@
 				011E911517075FCD003B5590 /* Default@2x.png in Resources */,
 				011E911717075FCD003B5590 /* Default-568h@2x.png in Resources */,
 				011E911A17075FCD003B5590 /* MainStoryboard.storyboard in Resources */,
+				0140C5521709830600749117 /* 129-golf.png in Resources */,
+				0140C5531709830600749117 /* 129-golf@2x.png in Resources */,
+				0140C5561709833700749117 /* 111-user.png in Resources */,
+				0140C5571709833700749117 /* 111-user@2x.png in Resources */,
+				0140C55A1709835B00749117 /* 166-newspaper.png in Resources */,
+				0140C55B1709835B00749117 /* 166-newspaper@2x.png in Resources */,
+				0140C55E1709838500749117 /* 123-id-card.png in Resources */,
+				0140C55F1709838500749117 /* 123-id-card@2x.png in Resources */,
+				0140C562170983AD00749117 /* 83-calendar.png in Resources */,
+				0140C563170983AD00749117 /* 83-calendar@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
