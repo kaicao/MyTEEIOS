@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 org.myt. All rights reserved.
 //
 
-#import "myTeeTimeAppDelegate.h"
+#import "MyTeeTimeAppDelegate.h"
 
-@implementation myTeeTimeAppDelegate
+@implementation MyTeeTimeAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

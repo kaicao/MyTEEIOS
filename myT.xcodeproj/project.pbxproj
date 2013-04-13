@@ -17,15 +17,11 @@
 		011E911517075FCD003B5590 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 011E911417075FCD003B5590 /* Default@2x.png */; };
 		011E911717075FCD003B5590 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 011E911617075FCD003B5590 /* Default-568h@2x.png */; };
 		011E911A17075FCD003B5590 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011E911817075FCD003B5590 /* MainStoryboard.storyboard */; };
-		011E911D17075FCD003B5590 /* newsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 011E911C17075FCD003B5590 /* newsViewController.m */; };
 		011E912517075FCD003B5590 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011E912417075FCD003B5590 /* SenTestingKit.framework */; };
 		011E912617075FCD003B5590 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011E910017075FCD003B5590 /* UIKit.framework */; };
 		011E912717075FCD003B5590 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011E910217075FCD003B5590 /* Foundation.framework */; };
 		011E912F17075FCD003B5590 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 011E912D17075FCD003B5590 /* InfoPlist.strings */; };
 		011E913217075FCD003B5590 /* myTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 011E913117075FCD003B5590 /* myTTests.m */; };
-		011E94641707772C003B5590 /* myTeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 011E94631707772C003B5590 /* myTeeViewController.m */; };
-		011E9467170779A7003B5590 /* clubsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 011E9466170779A7003B5590 /* clubsViewController.m */; };
-		011E946A17077B3B003B5590 /* accountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 011E946917077B3B003B5590 /* accountViewController.m */; };
 		0140C5521709830600749117 /* 129-golf.png in Resources */ = {isa = PBXBuildFile; fileRef = 0140C5501709830600749117 /* 129-golf.png */; };
 		0140C5531709830600749117 /* 129-golf@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0140C5511709830600749117 /* 129-golf@2x.png */; };
 		0140C5561709833700749117 /* 111-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 0140C5541709833700749117 /* 111-user.png */; };
@@ -36,6 +32,14 @@
 		0140C55F1709838500749117 /* 123-id-card@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0140C55D1709838500749117 /* 123-id-card@2x.png */; };
 		0140C562170983AD00749117 /* 83-calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0140C560170983AD00749117 /* 83-calendar.png */; };
 		0140C563170983AD00749117 /* 83-calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0140C561170983AD00749117 /* 83-calendar@2x.png */; };
+		01F1BEBC1718963400B5297A /* MyTeeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F1BEBB1718963400B5297A /* MyTeeView.m */; };
+		01F1BEBF1718968600B5297A /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F1BEBE1718968600B5297A /* AccountViewController.m */; };
+		01F1BEC21718973100B5297A /* MyTeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F1BEC11718973100B5297A /* MyTeeViewController.m */; };
+		01F1BEC51718974F00B5297A /* ClubsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F1BEC41718974F00B5297A /* ClubsViewController.m */; };
+		01F1BEC81718978500B5297A /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F1BEC71718978500B5297A /* NewsViewController.m */; };
+		01F1BECB17189B5800B5297A /* ClubsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F1BECA17189B5800B5297A /* ClubsView.m */; };
+		01F1BECE17189B7500B5297A /* NewsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F1BECD17189B7500B5297A /* NewsView.m */; };
+		01F1BED117189B9800B5297A /* AccountView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F1BED017189B9800B5297A /* AccountView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		011E90FD17075FCD003B5590 /* myT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		011E90FD17075FCD003B5590 /* MyT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		011E910017075FCD003B5590 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		011E910217075FCD003B5590 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		011E910417075FCD003B5590 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,20 +67,12 @@
 		011E911417075FCD003B5590 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		011E911617075FCD003B5590 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		011E911917075FCD003B5590 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		011E911B17075FCD003B5590 /* newsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = newsViewController.h; sourceTree = "<group>"; };
-		011E911C17075FCD003B5590 /* newsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = newsViewController.m; sourceTree = "<group>"; };
 		011E912317075FCD003B5590 /* myTTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myTTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		011E912417075FCD003B5590 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		011E912C17075FCD003B5590 /* myTTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "myTTests-Info.plist"; sourceTree = "<group>"; };
 		011E912E17075FCD003B5590 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		011E913017075FCD003B5590 /* myTTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myTTests.h; sourceTree = "<group>"; };
 		011E913117075FCD003B5590 /* myTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myTTests.m; sourceTree = "<group>"; };
-		011E94621707772C003B5590 /* myTeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myTeeViewController.h; sourceTree = "<group>"; };
-		011E94631707772C003B5590 /* myTeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTeeViewController.m; sourceTree = "<group>"; };
-		011E9465170779A7003B5590 /* clubsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clubsViewController.h; sourceTree = "<group>"; };
-		011E9466170779A7003B5590 /* clubsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = clubsViewController.m; sourceTree = "<group>"; };
-		011E946817077B3B003B5590 /* accountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = accountViewController.h; sourceTree = "<group>"; };
-		011E946917077B3B003B5590 /* accountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = accountViewController.m; sourceTree = "<group>"; };
 		0140C5501709830600749117 /* 129-golf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "129-golf.png"; sourceTree = "<group>"; };
 		0140C5511709830600749117 /* 129-golf@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "129-golf@2x.png"; sourceTree = "<group>"; };
 		0140C5541709833700749117 /* 111-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "111-user.png"; sourceTree = "<group>"; };
@@ -87,6 +83,22 @@
 		0140C55D1709838500749117 /* 123-id-card@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "123-id-card@2x.png"; sourceTree = "<group>"; };
 		0140C560170983AD00749117 /* 83-calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "83-calendar.png"; sourceTree = "<group>"; };
 		0140C561170983AD00749117 /* 83-calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "83-calendar@2x.png"; sourceTree = "<group>"; };
+		01F1BEBA1718963400B5297A /* MyTeeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyTeeView.h; path = ../MyTeeView.h; sourceTree = "<group>"; };
+		01F1BEBB1718963400B5297A /* MyTeeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyTeeView.m; path = ../MyTeeView.m; sourceTree = "<group>"; };
+		01F1BEBD1718968600B5297A /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		01F1BEBE1718968600B5297A /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		01F1BEC01718973000B5297A /* MyTeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTeeViewController.h; sourceTree = "<group>"; };
+		01F1BEC11718973100B5297A /* MyTeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTeeViewController.m; sourceTree = "<group>"; };
+		01F1BEC31718974F00B5297A /* ClubsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubsViewController.h; sourceTree = "<group>"; };
+		01F1BEC41718974F00B5297A /* ClubsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubsViewController.m; sourceTree = "<group>"; };
+		01F1BEC61718978500B5297A /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		01F1BEC71718978500B5297A /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		01F1BEC917189B5800B5297A /* ClubsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubsView.h; sourceTree = "<group>"; };
+		01F1BECA17189B5800B5297A /* ClubsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubsView.m; sourceTree = "<group>"; };
+		01F1BECC17189B7500B5297A /* NewsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsView.h; sourceTree = "<group>"; };
+		01F1BECD17189B7500B5297A /* NewsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsView.m; sourceTree = "<group>"; };
+		01F1BECF17189B9800B5297A /* AccountView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountView.h; sourceTree = "<group>"; };
+		01F1BED017189B9800B5297A /* AccountView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +138,7 @@
 		011E90FE17075FCD003B5590 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				011E90FD17075FCD003B5590 /* myT.app */,
+				011E90FD17075FCD003B5590 /* MyT.app */,
 				011E912317075FCD003B5590 /* myTTests.octest */,
 			);
 			name = Products;
@@ -146,17 +158,25 @@
 		011E910617075FCD003B5590 /* myT */ = {
 			isa = PBXGroup;
 			children = (
+				011E911817075FCD003B5590 /* MainStoryboard.storyboard */,
 				011E910F17075FCD003B5590 /* myTeeTimeAppDelegate.h */,
 				011E911017075FCD003B5590 /* myTeeTimeAppDelegate.m */,
-				011E911817075FCD003B5590 /* MainStoryboard.storyboard */,
-				011E911B17075FCD003B5590 /* newsViewController.h */,
-				011E911C17075FCD003B5590 /* newsViewController.m */,
-				011E94621707772C003B5590 /* myTeeViewController.h */,
-				011E94631707772C003B5590 /* myTeeViewController.m */,
-				011E9465170779A7003B5590 /* clubsViewController.h */,
-				011E9466170779A7003B5590 /* clubsViewController.m */,
-				011E946817077B3B003B5590 /* accountViewController.h */,
-				011E946917077B3B003B5590 /* accountViewController.m */,
+				01F1BECC17189B7500B5297A /* NewsView.h */,
+				01F1BECD17189B7500B5297A /* NewsView.m */,
+				01F1BEC61718978500B5297A /* NewsViewController.h */,
+				01F1BEC71718978500B5297A /* NewsViewController.m */,
+				01F1BEC917189B5800B5297A /* ClubsView.h */,
+				01F1BECA17189B5800B5297A /* ClubsView.m */,
+				01F1BEC31718974F00B5297A /* ClubsViewController.h */,
+				01F1BEC41718974F00B5297A /* ClubsViewController.m */,
+				01F1BEBA1718963400B5297A /* MyTeeView.h */,
+				01F1BEBB1718963400B5297A /* MyTeeView.m */,
+				01F1BEC01718973000B5297A /* MyTeeViewController.h */,
+				01F1BEC11718973100B5297A /* MyTeeViewController.m */,
+				01F1BECF17189B9800B5297A /* AccountView.h */,
+				01F1BED017189B9800B5297A /* AccountView.m */,
+				01F1BEBD1718968600B5297A /* AccountViewController.h */,
+				01F1BEBE1718968600B5297A /* AccountViewController.m */,
 				011E910717075FCD003B5590 /* Supporting Files */,
 			);
 			path = myT;
@@ -208,9 +228,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		011E90FC17075FCD003B5590 /* myT */ = {
+		011E90FC17075FCD003B5590 /* MyT */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 011E913517075FCD003B5590 /* Build configuration list for PBXNativeTarget "myT" */;
+			buildConfigurationList = 011E913517075FCD003B5590 /* Build configuration list for PBXNativeTarget "MyT" */;
 			buildPhases = (
 				011E90F917075FCD003B5590 /* Sources */,
 				011E90FA17075FCD003B5590 /* Frameworks */,
@@ -220,9 +240,9 @@
 			);
 			dependencies = (
 			);
-			name = myT;
+			name = MyT;
 			productName = myT;
-			productReference = 011E90FD17075FCD003B5590 /* myT.app */;
+			productReference = 011E90FD17075FCD003B5590 /* MyT.app */;
 			productType = "com.apple.product-type.application";
 		};
 		011E912217075FCD003B5590 /* myTTests */ = {
@@ -266,7 +286,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				011E90FC17075FCD003B5590 /* myT */,
+				011E90FC17075FCD003B5590 /* MyT */,
 				011E912217075FCD003B5590 /* myTTests */,
 			);
 		};
@@ -328,10 +348,14 @@
 			files = (
 				011E910D17075FCD003B5590 /* main.m in Sources */,
 				011E911117075FCD003B5590 /* myTeeTimeAppDelegate.m in Sources */,
-				011E911D17075FCD003B5590 /* newsViewController.m in Sources */,
-				011E94641707772C003B5590 /* myTeeViewController.m in Sources */,
-				011E9467170779A7003B5590 /* clubsViewController.m in Sources */,
-				011E946A17077B3B003B5590 /* accountViewController.m in Sources */,
+				01F1BEBC1718963400B5297A /* MyTeeView.m in Sources */,
+				01F1BEBF1718968600B5297A /* AccountViewController.m in Sources */,
+				01F1BEC21718973100B5297A /* MyTeeViewController.m in Sources */,
+				01F1BEC51718974F00B5297A /* ClubsViewController.m in Sources */,
+				01F1BEC81718978500B5297A /* NewsViewController.m in Sources */,
+				01F1BECB17189B5800B5297A /* ClubsView.m in Sources */,
+				01F1BECE17189B7500B5297A /* NewsView.m in Sources */,
+				01F1BED117189B9800B5297A /* AccountView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +372,7 @@
 /* Begin PBXTargetDependency section */
 		011E912917075FCD003B5590 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 011E90FC17075FCD003B5590 /* myT */;
+			target = 011E90FC17075FCD003B5590 /* MyT */;
 			targetProxy = 011E912817075FCD003B5590 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -505,7 +529,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		011E913517075FCD003B5590 /* Build configuration list for PBXNativeTarget "myT" */ = {
+		011E913517075FCD003B5590 /* Build configuration list for PBXNativeTarget "MyT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				011E913617075FCD003B5590 /* Debug */,
